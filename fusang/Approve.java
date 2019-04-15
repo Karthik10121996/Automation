@@ -17,7 +17,7 @@ public class Approve {
 		// Enter the URL
         driver.get("https://beta-vault.fusang.co/#/");
         // Enter the User mail id(Name)
-        driver.findElement(By.name("username")).sendKeys("admina@getnada.com");
+        driver.findElement(By.name("username")).sendKeys("aditya@getnada.com");
         // Enter the Password
         driver.findElement(By.name("password")).sendKeys("12345678901234567890");
         // Click on SignIn button
